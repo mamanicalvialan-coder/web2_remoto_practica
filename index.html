@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de servicios electromecánicos.">
+  <title>Servicios Electromecánicos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="marca" href="#inicio">ElectroServicio</a>
+      <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="presentacion">
+      <div class="contenedor">
+        <p class="etiqueta">Soluciones técnicas</p>
+        <h1>Servicios electromecánicos</h1>
+        <p class="introduccion">
+          Realizamos instalaciones, mantenimiento y revisión de equipos
+          eléctricos con responsabilidad y seguridad.
+        </p>
+        <a class="boton" href="#servicios">Ver servicios</a>
+      </div>
+    </section>
+
+    <section id="servicios" class="seccion contenedor">
+      <h2>Nuestros servicios</h2>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <h3>Instalaciones eléctricas</h3>
+          <p>Montaje y revisión de circuitos para viviendas y pequeños negocios.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Mantenimiento</h3>
+          <p>Mantenimiento preventivo y correctivo de motores y equipos eléctricos.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Automatización</h3>
+          <p>Soluciones básicas de control para mejorar procesos y reducir fallas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <p>Solicita información sobre nuestros servicios.</p>
+        <button id="botonContacto" type="button">Mostrar contacto</button>
+        <p id="mensajeContacto" class="mensaje" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>&copy; <span id="anio"></span> ElectroServicio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
